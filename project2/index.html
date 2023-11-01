@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        border: 5px solid red;
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100vh;
+        background-image: url(background-image.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: relative;
+      }
+
+      .nav {
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: end;
+        justify-content: space-evenly;
+      }
+
+      li {
+        list-style: none;
+        display: inline;
+        margin: 15px;
+        color: rgb(78, 78, 78);
+      }
+
+      .search span {
+        border-radius: 3px;
+        background-color: rgb(240, 49, 163);
+        color: white;
+        font-size: 18px;
+        padding: 5px;
+      }
+      .leftside {
+        margin: 10% 0 0 10%;
+        width: 40vw;
+        height: 50vh;
+      }
+      .leftside h1 {
+        font-size: 50px;
+      }
+      .leftside p {
+        margin-top: 3%;
+        font-size: 20px;
+        color: rgb(153, 156, 158);
+      }
+      .button {
+        margin-top: 6%;
+      }
+      button:nth-child(1) {
+        background-color: rgb(240, 49, 163);
+        color: white;
+        border: none;
+      }
+      button {
+        padding: 5px;
+        font-size: 10px;
+        border: 1px solid rgb(240, 49, 163);
+        color: rgb(240, 49, 163);
+        border-radius: 2px;
+      }
+      .content {
+        display: flex;
+      }
+      .rightside {
+        margin-left: 10%;
+        margin-top: 5%;
+      }
+      .rightside img {
+        margin-left: 10%;
+      }
+      .contact {
+        margin-top: 30%;
+      }
+      .contact ul {
+        padding: 2px;
+      }
+
+      .carloan {
+        position: absolute;
+        top: 16%;
+        left: 48%;
+        color: rgb(78, 78, 78);
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 0px 7px 0px;
+      }
+      .con {
+        display: flex;
+        align-items: center;
+        padding: 5px 17px;
+      }
+      .con :nth-child(2) {
+        margin-left: 20px;
+      }
+      .homeloan {
+        position: absolute;
+        top: 36%;
+        left: 85%;
+        color: rgb(78, 78, 78);
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 0px 7px 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="image"><img src="website-logo.png" alt="" /></div>
+        <div>
+          <ul>
+            <li>RETAIL</li>
+            <li>SME</li>
+            <li>CORPORATE</li>
+            <li>ABOUT US</li>
+            <li>COVID 19</li>
+            <li>CAMPGAINS</li>
+          </ul>
+        </div>
+        <div class="search">
+          <img src="search-icon.png" alt="" />
+          <span>Services</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="leftside">
+          <h1>
+            Chase Your <br />
+            Dream with us
+          </h1>
+          <p>
+            The harder you work for something, the <br />
+            greater you'll feel when you achieve it.
+          </p>
+          <div class="button">
+            <button>APPLY ONLINE</button>
+            <button>LOAN CALCULATOR</button>
+          </div>
+          <div class="contact">
+            <ul>
+              <li><img src="phone.png" alt="" /></li>
+              <li>1659</li>
+              <li>|</li>
+              <li><img src="facebook.png" alt="" /></li>
+              <li><img src="youtube.png" alt="" /></li>
+              <li><img src="linkedin.png" alt="" /></li>
+              <li><img src="instagram.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rightside">
+          <img src="hero-image.png" alt="" width="90%" />
+        </div>
+      </div>
+      <div class="carloan">
+        <div class="con">
+          <div><img src="car.png" alt="" /></div>
+          <div>Car Loan</div>
+        </div>
+      </div>
+      <div class="homeloan">
+        <div class="con">
+          <div><img src="car.png" alt="" /></div>
+          <div>House Loan</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
